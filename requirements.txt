@@ -1,0 +1,6 @@
+# To use this program, install the packages by type in the console:
+# pip install -r requirements.txt
+packaging
+selenium
+python-dotenv
+webdriver-manager
