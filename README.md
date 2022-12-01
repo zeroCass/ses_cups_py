@@ -4,6 +4,15 @@
  - Ter o python 3 instalado
  - Possuir o chrome instalado
 
+Após ter instalado o python, abra uma nova instância do terminal e execute os seguintes comandos:
+```bash
+python --version
+```
+```bash
+pip --version
+```
+Se nenhum erro emergir do terminal, então pode-se seguir para a próxima etapa.
+
 # Como usar
 
 Baixa o arquivo usando este [link](https://github.com/zeroCass/ses_cups_py/archive/refs/heads/main.zip) e extraia para um local de sua preferência.
@@ -18,7 +27,7 @@ Agora, basta digiar o seguinte comando no terminal CMD/POWERSHELL:
 pip install -r requirements.txt
 ```
 
-Após a instalação dos pacotes forem concluídas basta executar o programa. Para isso, digite o seguinte comando no terminal:
+Após a instalação dos pacotes estiverem concluídas basta executar o programa. Para isso, digite o seguinte comando no terminal:
 ```bash
 python selenium_app.py
 ```
@@ -33,6 +42,11 @@ Como se sabe, a URL da impressora que utiliza do protocolo SMB irá variar depen
 
 
 # Problemas conhecidos e possíveis problemas no futuro
+Se o programa estiver apresentando o erro: ** Error: name 're' is not defined **, então execute o script utilizando o arquivo ** selenium2_app.py **, da seguinte forma:
+```bash
+python selenium2_app.py
+```
+
 
 - Se a fila de impressão tiver mais de 100 trabalhos presos, o programa não irá funcionar. Portanto, limpe alguns trabalhos manualmente e depois execute o programa.
 - Futuramente a SES irá transiocionar os nomes das impressoras para um novo padrão (Ex: PR-12345678). Esse novo padrão pode fazer com que o programa não execute corretamente. Portanto, se este for o caso, recomendo que abra uma ISSUE aqui no GitHub informando os erros presentes no proprio terminal OU abra um PULL REQUEST com um código que apresente alterações que solucione esse impasse.
