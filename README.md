@@ -42,7 +42,7 @@ Como se sabe, a URL da impressora que utiliza do protocolo SMB irá variar depen
 
 
 # Problemas conhecidos e possíveis problemas no futuro
-Se o programa estiver apresentando o erro: ** Error: name 're' is not defined **, então execute o script utilizando o arquivo ** selenium2_app.py **, da seguinte forma:
+Se o programa estiver apresentando o erro: * Error: name 're' is not defined**, então execute o script utilizando o arquivo **selenium2_app.py**, da seguinte forma:
 ```bash
 python selenium2_app.py
 ```
