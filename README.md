@@ -31,7 +31,7 @@ Após a instalação dos pacotes estiverem concluídas basta executar o programa
 ```bash
 python selenium_app.py
 ```
-Caso o programa apresente (erros)[#erros], execute assim: 
+Caso o programa apresente [erros](#problemas-conhecidos-e-possíveis-problemas-no-futuro), execute assim: 
 
 ```bash
 python selenium2_app.py
