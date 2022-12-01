@@ -31,7 +31,7 @@ Após a instalação dos pacotes estiverem concluídas basta executar o programa
 ```bash
 python selenium_app.py
 ```
-Caso o programa apresente (erros)[#problemas-conhecidos-e-possiveis-problemas-no-futuro], execute assim: 
+Caso o programa apresente (erros)[#erros], execute assim: 
 
 ```bash
 python selenium2_app.py
@@ -45,8 +45,8 @@ Sempre que um trabalho fica por mais de 2 minutos na fila do CUPS, o programa ir
 
 Como se sabe, a URL da impressora que utiliza do protocolo SMB irá variar depende do do domínio na qual o computador está inserido. Sendo assim, o programa reconhece essa variável de acordo com o hostname e localização da impressora (``` if 'saude.df.gov.br' in printer['hostname'] and 'UPA' not in printer['location'] ```), se for tiver saude.df.gov.br em seu hostname e não estiver em uma UPA, então está no domínio da SES, caso contrário está no IGES. Portanto, é importante que sempre que possível as impressoras tenham um hostname associado e não um IP.
 
-
-# Problemas conhecidos e possíveis problemas no futuro
+# Erros
+## Problemas conhecidos e possíveis problemas no futuro
 - Se o programa estiver apresentando o erro: **Error: name 're' is not defined**, então execute o script utilizando o arquivo **selenium2_app.py**, da seguinte forma:
 ```bash
 python selenium2_app.py
